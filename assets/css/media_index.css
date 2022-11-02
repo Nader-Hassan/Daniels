@@ -1,0 +1,162 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #home h1
+    {
+        font-size: 30px;
+    }
+    #home h1 span
+    {
+        font-size: 30px;
+    }
+    .slied-edit
+    {
+        padding: 50px;
+    }
+    .counter
+    {
+        margin-bottom: 30px;
+    }
+    .card-contact
+    {
+        margin: 20px 0 ;
+    }
+    .card
+    {
+        width: 29rem !important;
+    }
+    .mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #home h1
+    {
+        font-size: 30px;
+    }
+    #home h1 span
+    {
+        font-size: 30px;
+    }
+    .slied-edit
+    {
+     padding: 50px;
+    }
+    .counter
+    {
+        margin-bottom: 30px;
+    }
+    .card-contact
+    {
+     margin: 20px 0 ;
+    }
+    .card
+    {
+        width: 30rem !important;
+    }
+    .mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #home h1
+    {
+        font-size: 30px;
+    }
+    #home h1 span
+    {
+        font-size: 30px;
+    }
+    .slied-edit
+    {
+        padding: 50px;
+    }
+    .counter
+    {
+        margin-bottom: 30px;
+    }
+    .card-contact
+    {
+        margin: 20px 0 ;
+    }
+    .card
+    {
+        width: 40rem !important;
+    }
+    .mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #home h1
+    {
+        font-size: 30px;
+    }
+    #home h1 span
+    {
+        font-size: 30px;
+    }
+    .slied-edit
+    {
+        padding: 50px;
+    }
+    .counter
+    {
+        margin-bottom: 30px;
+    }
+    .card-contact
+    {
+        margin: 0px 40px;
+    }
+    .card
+    {
+        width: 18rem !important;
+    }
+    .mb-30
+    {
+        margin-bottom: 30px;
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    #home h1
+    {
+        font-size: 60px;
+    }
+    #home h1 span
+    {
+        font-size: 60px;
+    }
+    .slied-edit
+    {
+        padding: 50px;
+    }
+    .counter
+    {
+        margin-bottom: 30px;
+    }
+    .card-contact
+    {
+        margin: 0px 40px;
+    }
+    .card
+    {
+        width: 24rem !important;
+    }
+    .mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+

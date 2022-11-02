@@ -1,0 +1,563 @@
+/*======================== General CSS ========================= */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,a
+{
+    text-decoration: none !important;
+    list-style: none;
+}
+img
+{
+    width: 100%;
+}
+p
+{
+    margin-bottom: 0!important;
+}
+body
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px !important;
+}
+:root
+{
+    --main-color: #343434;
+    --body-color: #ccc;
+    --paragraph-color:rgb(116, 129, 130);
+}
+.section
+{
+    padding: 6rem 0;
+}
+.section-heading h3
+{
+    color: var(--main-color);
+    font-family:Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.section-heading h3::after
+{
+    content: "";
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.bg-smooth
+{
+    background-color: #F7F7F7;
+}
+
+
+
+
+/* ====================== Nav bar ========================= */
+.nav-items li a 
+{
+    font-family:Poppins, sans-serif;
+    color: #fff !important;
+    Font-size:14px;
+}
+.nav-items li 
+{
+    padding: 0 10px;
+}
+.nav-set
+{
+    position: fixed;
+    width: 100%;
+    background-color:transparent;
+    transition: all 1s ease-in-out;
+    z-index: 999999999999;
+}
+
+.logo 
+{
+    color: #fff !important;
+    Font-size:18px;
+    Font-weight:800;
+}
+
+/*======================== Home ========================= */
+#home
+{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(../images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+#home h5 
+{
+    Font-size:50px;
+    Font-weight:800;
+}
+#home h1
+{
+    Font-size:60px;
+    Font-weight:200;
+} 
+#home h1 span
+{
+    Font-weight:400;
+}
+.home-icons
+{
+    margin-top: 30px;
+}
+.home-icons a  i
+{
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    color: #fff !important;
+    font-size: 14px;
+}
+.width-edit i
+{
+    width: 35px;
+    height: 35px;
+}
+/* =============================== About ============================= */
+.about-content h4
+{
+    font-family: Poppins, sans-serif;
+    font-weight:400 ;
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.about-head h3
+{
+    color: var(--main-color);
+    font-family:Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.about-content p
+{
+    color: var(--paragraph-color);
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
+.about-content p span
+{
+    Font-family:Poppins, sans-serif;
+    Font-size:15px;
+    Font-weight:700;
+    color: rgb(116, 129, 130);
+}
+.basic-progress
+{
+    background-color: #F7F7F7;
+    height: 23px;
+    width: 100%;
+    border-radius:5px ;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+    margin: 30px 0;
+}
+.progress-bar1 , .progress-bar2 , .progress-bar3
+{
+    height: 23px;
+    border-radius:5px ;  
+    background-color:#1c1c1c ;
+}
+.progress-bar1
+{
+    width: 95%;
+}
+.progress-bar2
+{
+    width: 80%;
+}
+.progress-bar3
+{
+    width: 90%; 
+}
+.basic-progress p 
+{
+    color: #fff;
+    padding: 3px 10px;
+    Font-size:13px;
+}
+.basic-progress p span
+{
+    color:#fff;
+    Font-size:11px ;
+    Font-weight:500;
+}
+.btn-edit , .btn-edit1
+{
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding:10px 30px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.btn-edit
+{
+    background-color:#1c1c1c ;
+    color: #fff;
+}
+
+.btn-edit1
+{
+    border: 1px solid black;
+}
+
+.btn-edit:hover
+{
+    color: var(--main-color);
+    background-color: white;
+}
+
+.btn-edit1:hover
+{
+    color: #fff;
+    background-color: #1c1c1c ;
+}
+.about-pic
+{
+    margin-bottom: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+.about-pic::after
+{
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+/* ====================== services ================= */
+.serv-contact
+{
+    text-align: center;
+    margin-bottom: 30px ;
+    padding: 50px 20px;
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+.serv-contact h6
+{
+    Font-size:18px;
+    Font-weight:800;
+    color: var(--main-color);
+    padding-bottom: 10px;
+}
+.serv-contact p 
+{
+    Font-family:Poppins, sans-serif;
+    Font-size:14px;
+    Font-weight:400;
+    color: var(--paragraph-color);
+}
+.serv-icon 
+{
+    padding-bottom: 15px;
+}
+.serv-icon i
+{
+    font-size:30px;
+    padding: 20px 20px;
+    border : 1px solid #F7F7F7;
+    border-radius: 50%;
+    background-color: #F7F7F7;
+    transition: all 0.3s ease-in;
+}
+.serv-contact:hover i
+{
+    color: #fff;
+    background-color: #1c1c1c ;
+}
+
+/* ============================ start portfolio ============================= */
+.items-head
+{
+    margin: 50px 0;
+}
+.nav-tabs .nav-link.active , .nav-tabs .nav-link  
+{
+    color: var(--main-color);
+    padding:0 20px;
+    Font-family:Poppins, sans-serif;
+    Font-size:16px;
+    Font-weight:700;
+    border: 0;
+ 
+}
+.nav-tabs .nav-link.active , .nav-tabs .nav-link::after
+{
+    content: "";
+    border-bottom:2px solid #1c1c1c ;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active 
+{
+    background-color:unset !important;
+}
+.nav-tabs 
+{
+    border-bottom: none !important;
+}
+.port-item
+{
+    margin: 15px 0;
+    position: relative;
+}
+.port-overlay
+{
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    opacity: 0;  
+    transform:translateY(10px) ;
+    transition: all 0.5s ease-in-out;
+}
+.port-item:hover .port-overlay
+{
+    opacity: 1; 
+    transform:translateY(0px)
+}
+.port-item:hover .port-icons i
+{
+    margin-top: 0px;
+}
+
+.port-overlay h6
+{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+}
+.port-icons i
+{
+ padding:10px ;
+ background-color: #1c1c1c;
+ border-radius: 50%;
+ color: white;
+ font-size: 10px;
+ margin-top: 20px;
+ transition: all 0.5s ease-in-out;
+ cursor: pointer;
+}
+.port-icons i:hover
+{
+    background-color:white;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+}
+/* ================ start Testimonials ====================== */
+
+.carousel-item p
+{
+    Font-family:Poppins, sans-serif;
+    Font-size:15px;
+    color: var(--paragraph-color);
+}
+.slied-edit
+{
+    padding: 120px;
+}
+.slied-control
+{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 7px;
+    background-color:#D6D6D6!important;
+    border:1px solid #D6D6D6 !important;
+    border-radius: 30px;
+}
+.carousel-item h6
+{
+    margin-top:50px;
+    margin-bottom: 0 !important;
+    Font-weight:600;
+    color: var(--main-color);
+}
+.carousel-item span
+{
+    Font-family:Poppins, sans-serif;
+    Font-size:12px;
+    Font-weight:600;
+    color: rgb(136, 136, 136);
+}
+.counter i
+{
+    font-size:30px ;
+    padding-bottom: 20px;
+}
+.counter h3
+{
+    Font-size:30px;
+    Font-weight:900;
+    color: var(--main-color);
+    padding-bottom: 10px;
+}
+.counter p
+{
+    Font-family:Poppins, sans-serif;
+    Font-size:15px;
+    Font-weight:600;
+    color: var(--paragraph-color);
+}
+/* ==================== start blog ========================= */
+.cards-edit
+{
+    margin-top: 80px;
+}
+.card-contact
+{
+    margin: 0 40px ;
+}
+.card-contact h5 a
+{
+    Font-size:12px;
+    Font-weight:600;
+    color: rgb(136, 136, 136);
+}
+.card-contact h3 a
+{
+    Font-size:20px;
+    Font-weight:800;
+    color: var(--main-color);
+}
+.card-contact img
+{
+    transition: all 0.5s ease-in-out;
+}
+.card-contact img:hover
+{
+    transform: scale(1.2,1.2);
+}
+.card-contact p a
+{
+    Font-size:14px;
+    color: var(--main-color);
+    border-bottom: 2px solid #333;
+}
+/* ======================================= start contact ======================== */
+.contact-it
+{
+    margin: 70px 0;
+}
+.contact-it i
+{
+    font-size: 25px;
+    border: 1px solid #F7F7F7;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.contact-icon i
+{
+  width: 55px;
+  height: 55px;
+}
+.contact-it i:hover
+{
+    background-color: black;
+    color: #fff;
+}
+.contact-it h6
+{
+    font-weight: 600;
+    color: var(--main-color);
+   margin-bottom: 10px;
+}
+.contact-it p
+{
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--paragraph-color);
+}
+.input-edit
+{
+    background-color: #F7F7F7;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    outline: 0;
+}
+/* ============================== start footer ============================= */
+.footer
+{
+    background-color: #1c1c1c;
+    padding: 30px;
+}
+.footer p
+{
+    color:var(--paragraph-color);
+    font-size: 13px;
+    font-family: Poppins, sans-serif;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
